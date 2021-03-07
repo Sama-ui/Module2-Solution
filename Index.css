@@ -1,0 +1,152 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+    font-family: system-ui;
+    font-size: 30px;
+
+}
+
+#Box1{
+    box-sizing: border-box;
+    padding: 0 0 10px 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+    height: 136px;
+    width: 330px;
+    background-color: #80808091;
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: 500;
+    float: left
+    
+}
+#Content1{
+    box-sizing: border-box;
+    margin: 0 0 0 230px;
+    padding: 2px 10px;
+    border: 2px solid black;
+    text-align: right;
+    border-top: none;
+    border-right: none;
+    font-weight: bold;
+    background-color:#cd5c5c8f;
+    font-family: system-ui;
+}
+
+
+#Box2{
+    box-sizing: border-box;
+    padding: 0 0 10px 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+    height: 136px;
+    width: 330px;
+    background-color: #80808091;
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: 500;
+    float: left;
+    
+}
+
+
+#Content2{
+    box-sizing: border-box;
+    margin: 0 0 0 230px;
+    padding: 2px 22px;
+    border: 2px solid black;
+    text-align: right;
+    border-top: none;
+    border-right: none;
+    font-weight: bold;
+    background-color:#e80303c9;
+    font-family: system-ui;
+    color: white;
+    font-size: 15px;
+}
+
+
+#Box3{
+    box-sizing: border-box;
+    padding: 0 0 10px 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+    height: 136px;
+    width: 330px;
+    background-color: #80808091;
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: 500;
+    float: left;
+
+    
+}
+
+
+#Content3{
+    box-sizing: border-box;
+    margin: 0 0 0 230px;
+    padding: 2px 20px;
+    border: 2px solid black;
+    text-align: right;
+    border-top: none;
+    border-right: none;
+    font-weight: bold;
+    background-color: #d8a72fad;
+    font-family: system-ui;
+}
+
+#Main{
+    margin-left: 10%;
+    padding: 2%;
+}
+
+/****For Large device****/
+
+    @media (max-width: 1200px)   {
+        
+        #Box1 {
+            width: 33.33%;
+        }
+
+        #Box2 {
+            width: 33.33%;
+        }
+        #Box3 {
+            width: 33.33%;
+        }
+    }
+
+    @media (max-width:992px){
+        #Box1 {
+            width: 50%;
+        }
+
+        #Box2 {
+            width: 50%;
+        }
+        #Box3 {
+            width: 50%;
+        }
+    }
+
+    @media (max-width: 600px){
+        #Box1 {
+            width: 80%;
+        }
+
+        #Box2 {
+            width: 80%;
+        }
+        #Box3 {
+            width: 80%;
+        }
+    }
+    }
+}
+
+    
+
